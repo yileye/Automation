@@ -28,7 +28,7 @@ class AbstractPage(object):
 
 
     def login(self,username,password):
-        self.driver.get('http://mtest.sinooceanland.com/MobileBusiness/MobileBusiness.Manage.PassportService/Anonymous/SignInPage.aspx?ru=http%3a%2f%2fmtest.sinooceanland.com%2fMobileBusiness%2fMobileBusiness.ParternerPlatform.Manage2.0%2fFunctions%2fDefaut.aspx%3fmenuCode%3d&to=-2&aid=WaChatWebSite&ip=10.2.34.71&lou=http%3a%2f%2fmtest.sinooceanland.com%2fMobileBusiness%2fMobileBusiness.ParternerPlatform.Manage2.0%2fMCSAuthenticateLogOff.axd&m=HttpPost')
+        self.driver.get('')
         self.driver.find_element_by_id('txtUserInfo').clear()
         self.driver.find_element_by_id('txtUserInfo').send_keys(username)
         self.driver.find_element_by_id('txtPassword').clear()
