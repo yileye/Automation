@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="test_webserver1.TestUserInfo-20151218135840" tests="1" time="0.007">
+	<testcase classname="test_webserver1.TestUserInfo" name="test_userinfo_get_1" time="0.007"/>
+	<system-out>
+<![CDATA[1
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
